@@ -30,4 +30,29 @@ const myFunc = function(){
     
 }
 // myFunc()
-console.log(typeof llmExample);
+// console.log(typeof llmExample);
+
+////////////////////*********************
+
+// Stack (Primitive)= passes only copy, Heap (Non-Primitive) = memory changes
+ 
+let myName ="aamir raza"
+
+let myAnotherName = myName // only value pass not refrence 
+ 
+myAnotherName = "syed raza"
+
+//  console.log(myName); 
+//  console.log(myAnotherName);
+ 
+ let firstUser = {
+    email: "user123@gmail.com",
+    loc: "delhi"
+ }
+ let secondUser = firstUser
+
+ secondUser.loc =  "ranchi"
+        
+console.log(firstUser.loc); //ranchi
+console.log(secondUser.loc); //ranchi
+    
