@@ -1,9 +1,9 @@
 // Singleton object can be created using Object.create()
 Object.create
 
-// object literals 
 const mySymbol = Symbol("key1")
 
+// object literals 
 const user = {
     name: "aamir",
     "fullName": "Aamir Raza", //you can't access using dot,access with bracket notation
