@@ -36,4 +36,4 @@ function loginUserName(username = "raj"){
 }
 
 // console.log(loginUserName("Raza"))
-console.log(loginUserName())  // Interview Q
+console.log(loginUserName())  // Interview Qs
