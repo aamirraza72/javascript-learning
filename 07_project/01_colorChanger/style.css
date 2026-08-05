@@ -1,0 +1,45 @@
+html {
+  margin: 0;
+}
+body{
+    transition: background-color .4s ease;
+}
+
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.color-btn {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  display: inline-block;
+  margin: 5px;
+  transition: transform 0.2s ease;
+}
+
+.color-btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#grey {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
+#green {
+  background: rgb(0, 193, 26);
+}
