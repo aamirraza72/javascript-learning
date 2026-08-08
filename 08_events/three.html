@@ -8,28 +8,26 @@
 <body style="background-color: #212121; color: aliceblue;">
     <h1>Chai aur JavaScript</h1>
     <button id="start">Start</button>
-<button id="stop">Stop</button>
+    <button id="stop">Stop</button>
+
+    <script>
+        function sayAamir(){
+            console.log("Aamir");   
+        }
+
+        let interValId;
+
+        document.querySelector('#start').addEventListener('click', function(){ 
+            interValId = setInterval(sayAamir, 1000);
+        });
+
+        document.querySelector('#stop').addEventListener('click', function(){
+            clearInterval(interValId);
+            // console.log("stopped");
+        });
+
+        // setInterval() → runs repeatedly after every 1 second
+        // clearInterval() → stops the running interval
+    </script>
 </body>
-<script>
-function sayAamir(){
-    console.log("Aamir");   
-}
-
-let interValId;
-
-    document.querySelector('#start').addEventListener('click', function(){ 
-       interValId = setInterval(sayAamir,1000)
-   
-})
-
-document.querySelector('#stop').addEventListener('click',function(){
-    clearInterval(interValId)
-
-    // console.log("stopped");
-    
-})
-</script>
 </html>
-
-// setInterval() → runs repeatedly after every 1 second
-// clearInterval() → stops the running interval
