@@ -55,3 +55,37 @@
       #green {
         background: rgb(0, 193, 26);
       }
+      @media (max-width: 600px) {
+
+  nav {
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .canvas {
+    width: 90%;
+    margin: 50px auto;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .color-grid {
+    gap: 10px;
+  }
+
+  .color-btn {
+    width: 90px;
+    height: 75px;
+    font-size: 14px;
+  }
+
+  .status-card {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+}
